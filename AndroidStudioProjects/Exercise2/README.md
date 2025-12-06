@@ -17,9 +17,11 @@
 
 | Feature | Description |
 |---------|-------------|
-| 🎨 **Material Design** | Modern UI using Material TextInputLayout |
+| 🎨 **Material Design** | Modern UI using Material Components with NoActionBar theme |
 | 📝 **Name Input** | Clean text field with outlined style |
 | 👋 **Personalized Greeting** | Dynamic "Hello, [Name]!" message |
+| 🚫 **No Title Bar** | Clean, immersive UI without ActionBar |
+| 📐 **Optimized Spacing** | Proper margins for balanced UI layout |
 | 📱 **Responsive** | Works on Android 5.0 (API 21) and above |
 
 ---
@@ -78,19 +80,27 @@ HelloUserApp/
 ├── 📁 app/
 │   ├── 📁 src/main/
 │   │   ├── 📁 java/com/example/hellouserapp/
-│   │   │   └── 📄 MainActivity.java      # Main logic
+│   │   │   └── 📄 MainActivity.java        # Main logic & event handling
 │   │   ├── 📁 res/
+│   │   │   ├── 📁 drawable/                # App icons & graphics
 │   │   │   ├── 📁 layout/
-│   │   │   │   └── 📄 activity_main.xml  # UI layout
-│   │   │   └── 📁 values/
-│   │   │       ├── 📄 strings.xml        # String resources
-│   │   │       ├── 📄 colors.xml         # Color palette
-│   │   │       └── 📄 themes.xml         # App theme
-│   │   └── 📄 AndroidManifest.xml        # App config
-│   └── 📄 build.gradle.kts               # Module dependencies
-├── 📄 build.gradle.kts                   # Project config
-├── 📄 settings.gradle.kts                # Project settings
-└── 📄 README.md                          # This file
+│   │   │   │   └── 📄 activity_main.xml    # UI layout
+│   │   │   ├── 📁 mipmap-*/                # Launcher icons (various densities)
+│   │   │   ├── 📁 values/
+│   │   │   │   ├── 📄 strings.xml          # String resources
+│   │   │   │   ├── 📄 colors.xml           # Color palette
+│   │   │   │   └── 📄 themes.xml           # App theme (NoActionBar)
+│   │   │   ├── 📁 values-night/
+│   │   │   │   └── 📄 themes.xml           # Dark mode theme
+│   │   │   └── 📁 xml/
+│   │   │       ├── 📄 backup_rules.xml     # Backup configuration
+│   │   │       └── 📄 data_extraction_rules.xml
+│   │   └── 📄 AndroidManifest.xml          # App config & permissions
+│   └── 📄 build.gradle.kts                 # Module dependencies
+├── 📄 build.gradle.kts                     # Project config
+├── 📄 settings.gradle.kts                  # Project settings
+├── 📄 gradle.properties                    # Gradle settings
+└── 📄 README.md                            # This file
 ```
 
 ---
@@ -139,6 +149,39 @@ if (!name.isEmpty()) {
     tvGreeting.setText(message);
 }
 ```
+
+---
+
+## 🎯 Optional Challenge: Toast Message
+
+To display a Toast message when no name is entered (instead of updating the TextView), modify the button click listener:
+
+```java
+import android.widget.Toast;
+
+// Inside onClick method:
+String name = etName.getText().toString().trim();
+
+if (name.isEmpty()) {
+    // Show Toast message if no name is entered
+    Toast.makeText(MainActivity.this, "Please enter your name", Toast.LENGTH_SHORT).show();
+} else {
+    // Display greeting in TextView if name is provided
+    String greeting = "Hello, " + name + "! Welcome to Android Development.";
+    tvGreeting.setText(greeting);
+}
+```
+
+---
+
+## 🔄 Recent Updates
+
+| Date | Change |
+|------|--------|
+| 2025-12-06 | 🎨 Changed theme to `NoActionBar` for cleaner UI |
+| 2025-12-06 | 📐 Added 48dp top margin to title for better spacing |
+| 2025-12-06 | 🛠️ Fixed `AndroidManifest.xml` structure |
+| 2025-12-06 | 📝 Added optional Toast message challenge implementation |
 
 ---
 
