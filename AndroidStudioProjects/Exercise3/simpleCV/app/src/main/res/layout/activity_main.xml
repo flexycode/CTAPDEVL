@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Curriculum Vitae"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prefix" />
+
+        <Spinner
+            android:id="@+id/spinnerPrefix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3F2FD"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name, First Name M.I."
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City" />
+
+        <EditText
+            android:id="@+id/editCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birthdate" />
+
+        <EditText
+            android:id="@+id/editBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Birthdate"
+            android:focusable="false"
+            android:clickable="true"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Degree" />
+
+        <EditText
+            android:id="@+id/editDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Degree"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Position" />
+
+        <EditText
+            android:id="@+id/editPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Position Applying For"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:background="#1565C0"/>
+    </LinearLayout>
+</ScrollView>
