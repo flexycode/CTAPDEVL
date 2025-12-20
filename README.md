@@ -70,13 +70,15 @@ All lab assignments, resources, and reports will be organized following the stru
 
 ```
 CTAPDEVL/
-├── activity/
-│   ├── TBA/
-├── assignments/
-├── resources/
-│   ├── textbooks/
-│   ├── reference-materials/
-│   └── useful-links.md
+├── AndroidStudioProjects/
+├── Week 1 - Introduction to the Course/
+├── Week 2 - Intro to Android/
+├── Week 3 - Android Studio Fundamentals/
+├── X-Midterm Exam/
+│   ├── ChristmasGreetingCard/
+│   ├── Screenshots/
+│   └── Short reflection/
+├── LICENSE
 └── README.md
 ```
 
@@ -103,30 +105,29 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 - 🐛 Fixed course description to reflect Applications Development and Emerging Technologies content
 - 📝 Updated documentation formatting
 
-<!--
-### 📦 Version 1.1.1 - TBA
-**Documentation Improvements**
+### 📦 Version 1.2.0 - December 14, 2025
+**Android Development Fundamentals**
+- ✨ Added Week 1, 2, and 3 course content
+- ✨ Integrated basic Android Studio projects
+- 🔧 Organized repository for midterm phase
 
-- ✨ 
-- ✨ Improved repository structure visualization
-- 🔧 Enhanced setup instructions for multiple platforms
-- 📚 Expanded resource links and references
+### 📦 Version 1.3.0 - December 20, 2025
+**Midterm Achievement**
+- ✨ Completed **Christmas Greeting Card App** (Midterm Exam)
+- ✨ Added project screenshots and documentation
+- ✨ Finalized repository structure for first half of the course
+- 🔧 Consolidated all laboratory assets
 
-### 📦 Version 1.2.2 - TBA
-**Documentation Improvements**
+# 🎄 Midterm Project: Christmas Greeting Card App
 
-- ✨ Added lab activity 2 - SJF Algorithm
-- 🔧 Fixed bugs in Java code regarding on the lab activity 2
+This project is a high-tier Android application developed as part of the Midterm Examination. It features a festive design with interactive elements and personalized messages.
 
-### 📦 Version 3.0.0 - TBA
-**Project Initialization**
-
-✨ Created initial repository structure
-✨ Set up course folder organization
-✨ Established OS development workflow
-🔧 Initial project configuration and README.md setup
-📚 Added course syllabus and learning objectives
--->
+*   **Platform**: Android
+*   **Tools**: Android Studio, Java/Kotlin, XML
+*   **Key Features**:
+    *   Dynamic Greeting Message
+    *   Interactive festive buttons
+    *   Premium UI/UX design with Christmas-themed assets
 
 **Commit Message** : 🧊 CTAPDEVL
 

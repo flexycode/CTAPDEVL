@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ChristmasGreetingCard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/christmas_red</item>
+        <item name="colorPrimaryVariant">@color/christmas_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/christmas_green</item>
+        <item name="colorSecondaryVariant">@color/christmas_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/christmas_red</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Christmas Greeting Card</string>
+    <string name="greeting_title">Merry Christmas!</string>
+    <string name="greeting_message">To my dearest parents, words cannot express how much I appreciate your love and guidance throughout my life. I am so grateful for all the sacrifices you have made to give me the best future possible. May this Christmas bring you as much joy and warmth as you have always given to our home. Wishing you a season filled with peace, love, and many wonderful memories together. Merry Christmas with all my heart!</string>
+    <string name="signature">From: Jay Arre Talosig</string>
+    <string name="button_text">Spread Holiday Cheer</string>
+    <string name="toast_message">Merry Christmas, Mom and Dad!</string>
+</resources>
