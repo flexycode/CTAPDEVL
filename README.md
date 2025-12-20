@@ -10,7 +10,8 @@
 ### Professor: [Mrs. Susan S. Caluya](https://www.youtube.com/watch?v=8mDIQVprl6w)     
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=8mDIQVprl6w)
 ### Prerequisite: [CCOBJPGL](https://github.com/flexycode/CCOBJPGL-JAVA)
-### Project Link: [Coming Soon](https://youtube.com)
+### Midterm Exam: [🎄 Christmas Greeting Card](https://github.com/flexycode/CTAPDEVL/tree/main/X-Midterm%20Exam)
+### Final Exam: [Coming Soon](https://github.com/flexycode/CTAPDEVL)
 
 <!-- 🤖 Applications Development and Emerging Technologies 🤖 -->
 <div align="center">
